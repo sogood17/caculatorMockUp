@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+}
+
+.screen {
+    width: 350px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.screen-number {
+    width: 350px;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.line-one {
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 82px;
+}
+
+.line-two {
+    float: left;
+    margin: 0;
+    height: 82px;
+}
+
+.line-three {
+    float: left;
+    margin: 0;
+    height: 82px;
+}
+
+.line-four {
+    float: left;
+    margin: 0;
+    height: 82px;
+}
+
+.line-five {
+    float: left;
+    margin: 0;
+    height: 82px;
+}
+
+.top-btn {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 87.5px;
+    height: 82px;
+}
+
+.right-btn {
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 87.5px;
+    height: 82px;
+}
+
+.number-btn {
+    float: left;
+    color: red;
+    margin: 0;
+    padding: 0;
+    width: 87.5px;
+    height: 82px;
+}
+
+.zero {
+    float: left;
+    color: red;
+    margin: 0;
+    padding: 0;
+    width: 175px;
+    height: 82px;
+}
