@@ -5,7 +5,7 @@
 }
 
 body {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     height: 100vh;
     display:flex;
     justify-content: center;
@@ -13,8 +13,11 @@ body {
 }
 
 .container {
-    width: 350px;
-    height: 500px;
+    width: 358px;
+    height: 502px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 8px;
+    background-color: rgb(80, 80, 80);
 }
 
 .screen {
@@ -26,16 +29,22 @@ body {
 }
 
 .screen-number {
-    width: 350px;
     text-align: right;
     align-items: center;
     justify-content: flex-end;
+    color: rgb(230, 230, 230);
 }
+
+button {
+    border: 0;
+    padding: 1px;
+    margin:1px;
+}
+
 
 .line-one {
     float: left;
     margin: 0;
-    padding: 0;
     height: 82px;
 }
 
@@ -65,34 +74,41 @@ body {
 
 .top-btn {
     float: left;
-    margin: 0;
-    padding: 0;
-    width: 87.5px;
-    height: 82px;
+    width: 87px;
+    height: 80px;
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+    background-color: rgb(92, 92, 92);
 }
 
 .right-btn {
     float: right;
-    margin: 0;
-    padding: 0;
-    width: 87.5px;
-    height: 82px;
+    width: 87px;
+    height: 80px;
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+    background-color: rgb(239, 163, 58);
 }
 
 .number-btn {
     float: left;
-    color: red;
-    margin: 0;
-    padding: 0;
-    width: 87.5px;
-    height: 82px;
+    width: 87px;
+    height: 80px;
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+    background-color: rgb(120, 120, 120);
 }
 
 .zero {
     float: left;
-    color: red;
-    margin: 0;
-    padding: 0;
-    width: 175px;
-    height: 82px;
+    width: 176px;
+    height: 80px;
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+    background-color: rgb(120, 120, 120);
+    border-bottom-left-radius: 8px;
+}
+
+.line-five .right-btn {
+    border-bottom-right-radius: 8px;
 }
